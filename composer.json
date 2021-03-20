@@ -1,0 +1,65 @@
+{
+    "name": "mobicms/mobicms-skeleton",
+    "description": "mobiCMS Content Management System",
+    "type": "project",
+    "homepage": "https://mobicms.org",
+    "license": "GPL-3.0-only",
+    "keywords": [
+        "mobicms",
+        "cms",
+        "psr",
+        "psr-7",
+        "psr-11",
+        "psr-15",
+        "middleware",
+        "mezzio",
+        "mysql"
+    ],
+    "authors": [
+        {
+            "name": "Oleg Kasyanov",
+            "role": "Team Lead, Developer",
+            "homepage": "http://mobicms.net",
+            "email": "dev@mobicms.net"
+        },
+        {
+            "name": "mobiCMS Contributors",
+            "homepage": "https://github.com/mobicms/mobicms/graphs/contributors"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/mobicms/mobicms",
+        "issues": "https://github.com/mobicms/mobicms/issues"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "vendor-dir": "mobicms/vendor"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "mobicms-modules/stub": "dev-develop",
+        "mobicms/component-installer": "dev-develop",
+        "mobicms/mobicms": "dev-develop"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.10",
+        "roave/security-advisories": "dev-master",
+        "slevomat/coding-standard": "^6.4",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "files": [
+            "mobicms/config/constants.php"
+        ]
+    },
+    "scripts": {
+        "check": [
+            "@cs-check"
+        ],
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf"
+    }
+}

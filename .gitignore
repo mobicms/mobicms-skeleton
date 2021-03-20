@@ -1,0 +1,25 @@
+# Common ignores
+/.idea
+/composer.lock
+/mobicms/vendor
+
+# Config folder ignores
+/mobicms/config/autoload/*.local.php
+/mobicms/config/packages/*
+!/mobicms/config/packages/README.txt
+/mobicms/config/routes/*
+!/mobicms/config/routes/README.txt
+
+# Data storage ignores
+/mobicms/data/cache/*
+!/mobicms/data/cache/.gitkeep
+/mobicms/data/logs/*
+!/mobicms/data/logs/.gitkeep
+
+# Public folder ignores
+/www/assets/*
+!/www/assets/index.html
+!/www/assets/README.txt
+/www/data/*
+!/www/data/index.html
+!/www/data/README.txt
