@@ -12,8 +12,8 @@
     <file>www</file>
 
     <!-- Paths to exclude -->
-    <exclude-pattern>mobicms/config/components/*</exclude-pattern>
-    <exclude-pattern>mobicms/config/modules/*</exclude-pattern>
+    <exclude-pattern>mobicms/config/packages/*</exclude-pattern>
+    <exclude-pattern>mobicms/config/routes/*</exclude-pattern>
 
     <!-- Generic rules -->
     <rule ref="PSR12"/>
