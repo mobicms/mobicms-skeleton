@@ -50,6 +50,12 @@
         "slevomat/coding-standard": "^6.4",
         "squizlabs/php_codesniffer": "^3.5"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mobicms-modules/stub.git"
+        }
+    ],
     "autoload": {
         "files": [
             "mobicms/config/constants.php"
