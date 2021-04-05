@@ -40,7 +40,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.4 || ^8.0",
-        "mobicms-modules/stub": "dev-develop",
+        "mobicms-modules/debug": "dev-develop",
         "mobicms/component-installer": "dev-develop",
         "mobicms/mobicms": "dev-develop"
     },
@@ -53,7 +53,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/mobicms-modules/stub.git"
+            "url": "https://github.com/mobicms-modules/debug.git"
         }
     ],
     "autoload": {

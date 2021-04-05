@@ -11,7 +11,6 @@
 declare(strict_types=1);
 
 use Mezzio\Application;
-use Mobicms\Modules\Stub\HomePageHandler;
 
 /**
  * Setup routes with a single request method:
@@ -40,5 +39,5 @@ use Mobicms\Modules\Stub\HomePageHandler;
  * );
  */
 return function (Application $app): void {
-    $app->get('/', HomePageHandler::class, 'home');
+    $app->get('/', \MobicmsModules\Debug\HomePageHandler::class, 'home');
 };
