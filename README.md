@@ -13,7 +13,7 @@ public sites. **LOCAL TEST ONLY!!!**
 Make sure your server meets the following requirements:
 - Apache webserver with Mod Rewrite
 - PHP 7.4.0 or higher
-- MySQL or compatible database
+- MySQL, MariaDB or other compatible database
 
 Following PHP extensions must be enabled:
 - [gd](https://www.php.net/manual/en/book.image.php) - image processing
